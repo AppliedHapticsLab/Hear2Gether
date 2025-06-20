@@ -165,7 +165,3 @@ Email: takada[at]ah.iit.tsukuba.ac.jp
 ## 📄 ライセンス
 
 このプロジェクトは MIT License の下でライセンスされています - 詳細は [LICENSE](LICENSE) ファイルをご覧ください。
-
-## 🤝 貢献
-
-貢献を歓迎します！お気軽にPull Requestをお送りください。
