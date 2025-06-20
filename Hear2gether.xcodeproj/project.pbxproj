@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1AECF82D57740E0059142A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CC1AECF72D57740E0059142A /* Kingfisher */; };
+		CC1AECFA2D5774B70059142A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC1AECF92D5774B70059142A /* FirebaseCore */; };
+		CC1AECFC2D5774B70059142A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CC1AECFB2D5774B70059142A /* FirebaseMessaging */; };
+		CC24CBF02D547FD500308ABF /* Hear2gether Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC24CBEF2D547FD500308ABF /* Hear2gether Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC24CC832D54A24F00308ABF /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC822D54A24F00308ABF /* GoogleSignIn */; };
+		CC24CC852D54A24F00308ABF /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC842D54A24F00308ABF /* GoogleSignInSwift */; };
+		CC24CC882D54A83C00308ABF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC872D54A83C00308ABF /* FirebaseAnalytics */; };
+		CC24CC8A2D54A83C00308ABF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC892D54A83C00308ABF /* FirebaseAuth */; };
+		CC24CC8C2D54A83C00308ABF /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC8B2D54A83C00308ABF /* FirebaseAuthCombine-Community */; };
+		CC24CC8E2D54A83C00308ABF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC8D2D54A83C00308ABF /* FirebaseCore */; };
+		CC24CC902D54A83C00308ABF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC8F2D54A83C00308ABF /* FirebaseDatabase */; };
+		CC24CC922D54A83C00308ABF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC912D54A83C00308ABF /* FirebaseFirestore */; };
+		CC24CC942D54A83C00308ABF /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC932D54A83C00308ABF /* FirebaseFunctions */; };
+		CC24CC962D54A83C00308ABF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC952D54A83C00308ABF /* FirebaseMessaging */; };
+		CC24CC982D54A83C00308ABF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CC972D54A83C00308ABF /* FirebaseStorage */; };
+		CC24CCA22D54F66B00308ABF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CC24CCA12D54F66B00308ABF /* Kingfisher */; };
+		CC2F46D82DB5D9A6008CAF4E /* BBM.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC2F46D72DB5D9A6008CAF4E /* BBM.wav */; };
+		CC4288452D57835A00B0FCA1 /* EFQRCode in Frameworks */ = {isa = PBXBuildFile; productRef = CC4288442D57835A00B0FCA1 /* EFQRCode */; };
+		CCDE031C2D951CBE008C03B3 /* EventSource in Frameworks */ = {isa = PBXBuildFile; productRef = CCDE031B2D951CBE008C03B3 /* EventSource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC24CBDA2D547FD500308ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24CBC12D547FD300308ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24CBC82D547FD300308ABF;
+			remoteInfo = Hear2gether;
+		};
+		CC24CBE42D547FD500308ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24CBC12D547FD300308ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24CBC82D547FD300308ABF;
+			remoteInfo = Hear2gether;
+		};
+		CC24CBF12D547FD500308ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24CBC12D547FD300308ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24CBEE2D547FD500308ABF;
+			remoteInfo = "Hear2gether Watch App";
+		};
+		CC24CC022D547FD600308ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24CBC12D547FD300308ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24CBEE2D547FD500308ABF;
+			remoteInfo = "Hear2gether Watch App";
+		};
+		CC24CC0C2D547FD600308ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC24CBC12D547FD300308ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC24CBEE2D547FD500308ABF;
+			remoteInfo = "Hear2gether Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC24CC182D547FD600308ABF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC24CBF02D547FD500308ABF /* Hear2gether Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC24CBC92D547FD300308ABF /* Hear2gether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hear2gether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24CBD92D547FD500308ABF /* Hear2getherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hear2getherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24CBE32D547FD500308ABF /* Hear2getherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hear2getherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24CBEF2D547FD500308ABF /* Hear2gether Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hear2gether Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24CC012D547FD600308ABF /* Hear2gether Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hear2gether Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24CC0B2D547FD600308ABF /* Hear2gether Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hear2gether Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F46D72DB5D9A6008CAF4E /* BBM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BBM.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC24CC9C2D54E98D00308ABF /* Exceptions for "Hear2gether" folder in "Hear2gether" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CC24CBC82D547FD300308ABF /* Hear2gether */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC24CBCB2D547FD300308ABF /* Hear2gether */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC24CC9C2D54E98D00308ABF /* Exceptions for "Hear2gether" folder in "Hear2gether" target */,
+			);
+			path = Hear2gether;
+			sourceTree = "<group>";
+		};
+		CC24CBDC2D547FD500308ABF /* Hear2getherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hear2getherTests;
+			sourceTree = "<group>";
+		};
+		CC24CBE62D547FD500308ABF /* Hear2getherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hear2getherUITests;
+			sourceTree = "<group>";
+		};
+		CC24CBF32D547FD500308ABF /* Hear2gether Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hear2gether Watch App";
+			sourceTree = "<group>";
+		};
+		CC24CC042D547FD600308ABF /* Hear2gether Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hear2gether Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CC24CC0E2D547FD600308ABF /* Hear2gether Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Hear2gether Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC24CBC62D547FD300308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24CCA22D54F66B00308ABF /* Kingfisher in Frameworks */,
+				CC24CC832D54A24F00308ABF /* GoogleSignIn in Frameworks */,
+				CC24CC852D54A24F00308ABF /* GoogleSignInSwift in Frameworks */,
+				CC24CC962D54A83C00308ABF /* FirebaseMessaging in Frameworks */,
+				CC24CC882D54A83C00308ABF /* FirebaseAnalytics in Frameworks */,
+				CC24CC942D54A83C00308ABF /* FirebaseFunctions in Frameworks */,
+				CC24CC8A2D54A83C00308ABF /* FirebaseAuth in Frameworks */,
+				CC24CC8E2D54A83C00308ABF /* FirebaseCore in Frameworks */,
+				CC24CC922D54A83C00308ABF /* FirebaseFirestore in Frameworks */,
+				CC24CC982D54A83C00308ABF /* FirebaseStorage in Frameworks */,
+				CC24CC902D54A83C00308ABF /* FirebaseDatabase in Frameworks */,
+				CC24CC8C2D54A83C00308ABF /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBD62D547FD500308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBE02D547FD500308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBEC2D547FD500308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDE031C2D951CBE008C03B3 /* EventSource in Frameworks */,
+				CC1AECFC2D5774B70059142A /* FirebaseMessaging in Frameworks */,
+				CC4288452D57835A00B0FCA1 /* EFQRCode in Frameworks */,
+				CC1AECFA2D5774B70059142A /* FirebaseCore in Frameworks */,
+				CC1AECF82D57740E0059142A /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBFE2D547FD600308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CC082D547FD600308ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC24CBC02D547FD300308ABF = {
+			isa = PBXGroup;
+			children = (
+				CC24CBCB2D547FD300308ABF /* Hear2gether */,
+				CC24CBDC2D547FD500308ABF /* Hear2getherTests */,
+				CC24CBE62D547FD500308ABF /* Hear2getherUITests */,
+				CC24CBF32D547FD500308ABF /* Hear2gether Watch App */,
+				CC24CC042D547FD600308ABF /* Hear2gether Watch AppTests */,
+				CC24CC0E2D547FD600308ABF /* Hear2gether Watch AppUITests */,
+				CC24CBCA2D547FD300308ABF /* Products */,
+				CC2F46D72DB5D9A6008CAF4E /* BBM.wav */,
+			);
+			sourceTree = "<group>";
+		};
+		CC24CBCA2D547FD300308ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC24CBC92D547FD300308ABF /* Hear2gether.app */,
+				CC24CBD92D547FD500308ABF /* Hear2getherTests.xctest */,
+				CC24CBE32D547FD500308ABF /* Hear2getherUITests.xctest */,
+				CC24CBEF2D547FD500308ABF /* Hear2gether Watch App.app */,
+				CC24CC012D547FD600308ABF /* Hear2gether Watch AppTests.xctest */,
+				CC24CC0B2D547FD600308ABF /* Hear2gether Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC24CBC82D547FD300308ABF /* Hear2gether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC192D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether" */;
+			buildPhases = (
+				CC24CBC52D547FD300308ABF /* Sources */,
+				CC24CBC62D547FD300308ABF /* Frameworks */,
+				CC24CBC72D547FD300308ABF /* Resources */,
+				CC24CC182D547FD600308ABF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24CBF22D547FD500308ABF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CBCB2D547FD300308ABF /* Hear2gether */,
+			);
+			name = Hear2gether;
+			packageProductDependencies = (
+				CC24CC822D54A24F00308ABF /* GoogleSignIn */,
+				CC24CC842D54A24F00308ABF /* GoogleSignInSwift */,
+				CC24CC872D54A83C00308ABF /* FirebaseAnalytics */,
+				CC24CC892D54A83C00308ABF /* FirebaseAuth */,
+				CC24CC8B2D54A83C00308ABF /* FirebaseAuthCombine-Community */,
+				CC24CC8D2D54A83C00308ABF /* FirebaseCore */,
+				CC24CC8F2D54A83C00308ABF /* FirebaseDatabase */,
+				CC24CC912D54A83C00308ABF /* FirebaseFirestore */,
+				CC24CC932D54A83C00308ABF /* FirebaseFunctions */,
+				CC24CC952D54A83C00308ABF /* FirebaseMessaging */,
+				CC24CC972D54A83C00308ABF /* FirebaseStorage */,
+				CC24CCA12D54F66B00308ABF /* Kingfisher */,
+			);
+			productName = Hear2gether;
+			productReference = CC24CBC92D547FD300308ABF /* Hear2gether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC24CBD82D547FD500308ABF /* Hear2getherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC1C2D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2getherTests" */;
+			buildPhases = (
+				CC24CBD52D547FD500308ABF /* Sources */,
+				CC24CBD62D547FD500308ABF /* Frameworks */,
+				CC24CBD72D547FD500308ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24CBDB2D547FD500308ABF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CBDC2D547FD500308ABF /* Hear2getherTests */,
+			);
+			name = Hear2getherTests;
+			packageProductDependencies = (
+			);
+			productName = Hear2getherTests;
+			productReference = CC24CBD92D547FD500308ABF /* Hear2getherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC24CBE22D547FD500308ABF /* Hear2getherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC1F2D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2getherUITests" */;
+			buildPhases = (
+				CC24CBDF2D547FD500308ABF /* Sources */,
+				CC24CBE02D547FD500308ABF /* Frameworks */,
+				CC24CBE12D547FD500308ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24CBE52D547FD500308ABF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CBE62D547FD500308ABF /* Hear2getherUITests */,
+			);
+			name = Hear2getherUITests;
+			packageProductDependencies = (
+			);
+			productName = Hear2getherUITests;
+			productReference = CC24CBE32D547FD500308ABF /* Hear2getherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC24CBEE2D547FD500308ABF /* Hear2gether Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC152D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch App" */;
+			buildPhases = (
+				CC24CBEB2D547FD500308ABF /* Sources */,
+				CC24CBEC2D547FD500308ABF /* Frameworks */,
+				CC24CBED2D547FD500308ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CBF32D547FD500308ABF /* Hear2gether Watch App */,
+			);
+			name = "Hear2gether Watch App";
+			packageProductDependencies = (
+				CC1AECF72D57740E0059142A /* Kingfisher */,
+				CC1AECF92D5774B70059142A /* FirebaseCore */,
+				CC1AECFB2D5774B70059142A /* FirebaseMessaging */,
+				CC4288442D57835A00B0FCA1 /* EFQRCode */,
+				CCDE031B2D951CBE008C03B3 /* EventSource */,
+			);
+			productName = "Hear2gether Watch App";
+			productReference = CC24CBEF2D547FD500308ABF /* Hear2gether Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC24CC002D547FD600308ABF /* Hear2gether Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC222D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch AppTests" */;
+			buildPhases = (
+				CC24CBFD2D547FD600308ABF /* Sources */,
+				CC24CBFE2D547FD600308ABF /* Frameworks */,
+				CC24CBFF2D547FD600308ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24CC032D547FD600308ABF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CC042D547FD600308ABF /* Hear2gether Watch AppTests */,
+			);
+			name = "Hear2gether Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Hear2gether Watch AppTests";
+			productReference = CC24CC012D547FD600308ABF /* Hear2gether Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC24CC0A2D547FD600308ABF /* Hear2gether Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24CC252D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch AppUITests" */;
+			buildPhases = (
+				CC24CC072D547FD600308ABF /* Sources */,
+				CC24CC082D547FD600308ABF /* Frameworks */,
+				CC24CC092D547FD600308ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC24CC0D2D547FD600308ABF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC24CC0E2D547FD600308ABF /* Hear2gether Watch AppUITests */,
+			);
+			name = "Hear2gether Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Hear2gether Watch AppUITests";
+			productReference = CC24CC0B2D547FD600308ABF /* Hear2gether Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC24CBC12D547FD300308ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CC24CBC82D547FD300308ABF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CC24CBD82D547FD500308ABF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CC24CBC82D547FD300308ABF;
+					};
+					CC24CBE22D547FD500308ABF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CC24CBC82D547FD300308ABF;
+					};
+					CC24CBEE2D547FD500308ABF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CC24CC002D547FD600308ABF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CC24CBEE2D547FD500308ABF;
+					};
+					CC24CC0A2D547FD600308ABF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CC24CBEE2D547FD500308ABF;
+					};
+				};
+			};
+			buildConfigurationList = CC24CBC42D547FD300308ABF /* Build configuration list for PBXProject "Hear2gether" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC24CBC02D547FD300308ABF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CC24CC812D54A24F00308ABF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CC24CCA02D54F66B00308ABF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CC4288432D57835A00B0FCA1 /* XCRemoteSwiftPackageReference "EFQRCode" */,
+				CCDE031A2D951CBE008C03B3 /* XCRemoteSwiftPackageReference "EventSource" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC24CBCA2D547FD300308ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC24CBC82D547FD300308ABF /* Hear2gether */,
+				CC24CBD82D547FD500308ABF /* Hear2getherTests */,
+				CC24CBE22D547FD500308ABF /* Hear2getherUITests */,
+				CC24CBEE2D547FD500308ABF /* Hear2gether Watch App */,
+				CC24CC002D547FD600308ABF /* Hear2gether Watch AppTests */,
+				CC24CC0A2D547FD600308ABF /* Hear2gether Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC24CBC72D547FD300308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2F46D82DB5D9A6008CAF4E /* BBM.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBD72D547FD500308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBE12D547FD500308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBED2D547FD500308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBFF2D547FD600308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CC092D547FD600308ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC24CBC52D547FD300308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBD52D547FD500308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBDF2D547FD500308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBEB2D547FD500308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CBFD2D547FD600308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC24CC072D547FD600308ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC24CBDB2D547FD500308ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24CBC82D547FD300308ABF /* Hear2gether */;
+			targetProxy = CC24CBDA2D547FD500308ABF /* PBXContainerItemProxy */;
+		};
+		CC24CBE52D547FD500308ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24CBC82D547FD300308ABF /* Hear2gether */;
+			targetProxy = CC24CBE42D547FD500308ABF /* PBXContainerItemProxy */;
+		};
+		CC24CBF22D547FD500308ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24CBEE2D547FD500308ABF /* Hear2gether Watch App */;
+			targetProxy = CC24CBF12D547FD500308ABF /* PBXContainerItemProxy */;
+		};
+		CC24CC032D547FD600308ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24CBEE2D547FD500308ABF /* Hear2gether Watch App */;
+			targetProxy = CC24CC022D547FD600308ABF /* PBXContainerItemProxy */;
+		};
+		CC24CC0D2D547FD600308ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC24CBEE2D547FD500308ABF /* Hear2gether Watch App */;
+			targetProxy = CC24CC0C2D547FD600308ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC24CC132D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC24CC142D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC24CC162D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hear2gether Watch App/Hear2gether Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Hear2gether Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hear2gether-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hear2gether;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Updates your health records with the latest information";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to share your health-related activities and insights with your healthcare provider.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Updates your health records with the latest information";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heartalktest.ah.iit.tsukuba.ac.jp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartalktest.ah.iit.tsukuba.ac.jp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		CC24CC172D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hear2gether Watch App/Hear2gether Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Hear2gether Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hear2gether-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hear2gether;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Updates your health records with the latest information";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to share your health-related activities and insights with your healthcare provider.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Updates your health records with the latest information";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heartalktest.ah.iit.tsukuba.ac.jp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartalktest.ah.iit.tsukuba.ac.jp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		CC24CC1A2D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hear2gether/Hear2gether.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Hear2gether/Preview Content\"";
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hear2gether/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hear2gether;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used for friend registration and communication with Apple Watch";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used for selecting a user image";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartalktest.ah.iit.tsukuba.ac.jp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC24CC1B2D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hear2gether/Hear2gether.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Hear2gether/Preview Content\"";
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hear2gether/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hear2gether;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used for friend registration and communication with Apple Watch";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used for selecting a user image";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartalktest.ah.iit.tsukuba.ac.jp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24CC1D2D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Watch.Hear2getherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2gether.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2gether";
+			};
+			name = Debug;
+		};
+		CC24CC1E2D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Watch.Hear2getherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2gether.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2gether";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24CC202D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Watch.Hear2getherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hear2gether;
+			};
+			name = Debug;
+		};
+		CC24CC212D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Watch.Hear2getherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hear2gether;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24CC232D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Watch.Hear2gether-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2gether Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2gether Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		CC24CC242D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Watch.Hear2gether-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2gether Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2gether Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		CC24CC262D547FD600308ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Watch.Hear2gether-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Hear2gether Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		CC24CC272D547FD600308ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56WF7LY2JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Watch.Hear2gether-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Hear2gether Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC24CBC42D547FD300308ABF /* Build configuration list for PBXProject "Hear2gether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC132D547FD600308ABF /* Debug */,
+				CC24CC142D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC152D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC162D547FD600308ABF /* Debug */,
+				CC24CC172D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC192D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC1A2D547FD600308ABF /* Debug */,
+				CC24CC1B2D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC1C2D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2getherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC1D2D547FD600308ABF /* Debug */,
+				CC24CC1E2D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC1F2D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2getherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC202D547FD600308ABF /* Debug */,
+				CC24CC212D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC222D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC232D547FD600308ABF /* Debug */,
+				CC24CC242D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24CC252D547FD600308ABF /* Build configuration list for PBXNativeTarget "Hear2gether Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24CC262D547FD600308ABF /* Debug */,
+				CC24CC272D547FD600308ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC24CC812D54A24F00308ABF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+		CC24CCA02D54F66B00308ABF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		CC4288432D57835A00B0FCA1 /* XCRemoteSwiftPackageReference "EFQRCode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EFPrefix/EFQRCode.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.2;
+			};
+		};
+		CCDE031A2D951CBE008C03B3 /* XCRemoteSwiftPackageReference "EventSource" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Recouse/EventSource";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC1AECF72D57740E0059142A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CCA02D54F66B00308ABF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CC1AECF92D5774B70059142A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		CC1AECFB2D5774B70059142A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CC24CC822D54A24F00308ABF /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC812D54A24F00308ABF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		CC24CC842D54A24F00308ABF /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC812D54A24F00308ABF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		CC24CC872D54A83C00308ABF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CC24CC892D54A83C00308ABF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CC24CC8B2D54A83C00308ABF /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CC24CC8D2D54A83C00308ABF /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		CC24CC8F2D54A83C00308ABF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CC24CC912D54A83C00308ABF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CC24CC932D54A83C00308ABF /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		CC24CC952D54A83C00308ABF /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CC24CC972D54A83C00308ABF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CC862D54A77700308ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CC24CCA12D54F66B00308ABF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC24CCA02D54F66B00308ABF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CC4288442D57835A00B0FCA1 /* EFQRCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC4288432D57835A00B0FCA1 /* XCRemoteSwiftPackageReference "EFQRCode" */;
+			productName = EFQRCode;
+		};
+		CCDE031B2D951CBE008C03B3 /* EventSource */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCDE031A2D951CBE008C03B3 /* XCRemoteSwiftPackageReference "EventSource" */;
+			productName = EventSource;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC24CBC12D547FD300308ABF /* Project object */;
+}
