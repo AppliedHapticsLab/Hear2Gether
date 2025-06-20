@@ -5,14 +5,14 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 ## 📸 スクリーンショット
 
 <div align="center">
-  <img src="01_login_screen.png" width="250" alt="ログイン画面">
-  <img src="02_solo_heart_rate_monitor.png" width="250" alt="ソロモード">
-  <img src="03_friends_list.png" width="250" alt="友達リスト">
+  <img src="images/01_login_screen.png" width="250" alt="ログイン画面">
+  <img src="images/02_solo_heart_rate_monitor.png" width="250" alt="ソロモード">
+  <img src="images/03_friends_list.png" width="250" alt="友達リスト">
 </div>
 <div align="center">
-  <img src="08_watch_solo_mode.png" width="150" alt="Watch ソロモード">
-  <img src="09_watch_partner_mode.png" width="150" alt="Watch パートナーモード">
-  <img src="10_watch_group_mode.png" width="150" alt="Watch グループモード">
+  <img src="images/08_watch_solo_mode.png" width="150" alt="Watch ソロモード">
+  <img src="images/09_watch_partner_mode.png" width="150" alt="Watch パートナーモード">
+  <img src="images/10_watch_group_mode.png" width="150" alt="Watch グループモード">
 </div>
 
 ## ✨ 機能
@@ -24,8 +24,8 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - **設定（設定モード）**: 振動パターン、設定、アプリの環境設定をカスタマイズ
 
 <div align="center">
-  <img src="04_group_room_selection.png" width="200" alt="グループルーム選択">
-  <img src="05_live_streaming_room.png" width="200" alt="ライブ配信ルーム">
+  <img src="images/04_group_room_selection.png" width="200" alt="グループルーム選択">
+  <img src="images/05_live_streaming_room.png" width="200" alt="ライブ配信ルーム">
 </div>
 
 ### 📱 リアルタイム心拍数モニタリング
@@ -41,8 +41,8 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - モード固有の振動動作
 
 <div align="center">
-  <img src="06_settings_vibration.png" width="250" alt="振動設定画面">
-  <img src="11_watch_settings.png" width="150" alt="Watch 設定画面">
+  <img src="images/06_settings_vibration.png" width="250" alt="振動設定画面">
+  <img src="images/11_watch_settings.png" width="150" alt="Watch 設定画面">
 </div>
 
 ### 🎯 マルチプレイヤーゲーム
@@ -58,7 +58,7 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - オフライン検出とWatch非使用時の「ビューアーモード」
 
 <div align="center">
-  <img src="07_watch_connection.png" width="250" alt="Apple Watch接続画面">
+  <img src="images/07_watch_connection.png" width="250" alt="Apple Watch接続画面">
 </div>
 
 ## 🛠 使用技術
