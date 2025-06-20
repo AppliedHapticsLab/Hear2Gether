@@ -2,6 +2,19 @@
 
 iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数データを共有し、協力的なゲームをプレイできる革新的な心拍数同期・ソーシャルゲーミングアプリです。触覚フィードバックを通じてお互いの心拍を感じ、心拍数ベースのマルチプレイヤー体験に参加できます。
 
+## 📸 スクリーンショット
+
+<div align="center">
+  <img src="01_login_screen.png" width="250" alt="ログイン画面">
+  <img src="02_solo_heart_rate_monitor.png" width="250" alt="ソロモード">
+  <img src="03_friends_list.png" width="250" alt="友達リスト">
+</div>
+<div align="center">
+  <img src="08_watch_solo_mode.png" width="150" alt="Watch ソロモード">
+  <img src="09_watch_partner_mode.png" width="150" alt="Watch パートナーモード">
+  <img src="10_watch_group_mode.png" width="150" alt="Watch グループモード">
+</div>
+
 ## ✨ 機能
 
 ### 🫀 心拍数共有モード
@@ -9,6 +22,11 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - **二人で（パートナーモード）**: 友達と心拍数を共有し、振動を通じてお互いの心拍を感じる
 - **みんなと（グループモード）**: ホストが複数の視聴者に心拍数を配信するグループに参加
 - **設定（設定モード）**: 振動パターン、設定、アプリの環境設定をカスタマイズ
+
+<div align="center">
+  <img src="04_group_room_selection.png" width="200" alt="グループルーム選択">
+  <img src="05_live_streaming_room.png" width="200" alt="ライブ配信ルーム">
+</div>
 
 ### 📱 リアルタイム心拍数モニタリング
 - Apple Watch HealthKit統合による継続的な心拍数追跡
@@ -22,6 +40,11 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - 心拍数に応答する振動タイミング
 - モード固有の振動動作
 
+<div align="center">
+  <img src="06_settings_vibration.png" width="250" alt="振動設定画面">
+  <img src="11_watch_settings.png" width="150" alt="Watch 設定画面">
+</div>
+
 ### 🎯 マルチプレイヤーゲーム
 - **テトリス**: 心拍数ベースの競技テトリスとリアルタイムゲームプレイ
 - **心拍数表示**: 純粋な心拍数共有体験
@@ -33,6 +56,10 @@ iPhoneとApple Watchユーザーをつなぎ、リアルタイムで心拍数デ
 - iPhoneとWatch間のリアルタイム接続
 - Watch固有の心拍数監視と振動
 - オフライン検出とWatch非使用時の「ビューアーモード」
+
+<div align="center">
+  <img src="07_watch_connection.png" width="250" alt="Apple Watch接続画面">
+</div>
 
 ## 🛠 使用技術
 
