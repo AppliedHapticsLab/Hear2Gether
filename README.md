@@ -169,3 +169,7 @@ Email: takada[at]ah.iit.tsukuba.ac.jp
 ## 🤝 貢献
 
 貢献を歓迎します！お気軽にPull Requestをお送りください。
+
+---
+
+*このREADMEは高田颯太によって作成されました。*
